@@ -61,7 +61,7 @@ export default function About({ navigation }) {
         >
           <Icons.BookOpenIcon size="140" color="brown" />
         </View>
-        <Text style={{ textAlign: "justify", marginBottom: 10 }}>
+        <Text style={{ textAlign: "center", marginBottom: 10 }}>
           Guitar Teacher App is one and only one mobile application available in
           both Apple App Store and Google Play Store that teaches all kinds of
           guitar chords with the initial strumming pattern in simple and basic

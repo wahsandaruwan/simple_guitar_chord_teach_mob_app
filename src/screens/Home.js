@@ -93,7 +93,7 @@ export default function Home({ navigation }) {
             }}
             onPress={() => navigation.navigate("About")}
           >
-            <Icons.CubeIcon size="40" color="white" />
+            <Icons.ClipboardDocumentCheckIcon size="40" color="white" />
           </TouchableOpacity>
         </View>
         <ScrollView
