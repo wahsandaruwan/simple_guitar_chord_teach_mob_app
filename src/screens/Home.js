@@ -28,6 +28,13 @@ export default function Home({ navigation }) {
 
   const [filteredChords, setFilteredChords] = useState([]);
 
+  // Load chords
+  useEffect(() => {
+    if (isFocused) {
+      setChords(guitarChords);
+    }
+  }, [isFocused]);
+
   // Filter
   useEffect(() => {
     filterChords();
@@ -66,7 +73,7 @@ export default function Home({ navigation }) {
           }}
         >
           <TextInput
-            placeholder="Search Finance..."
+            placeholder="Filter Chords"
             style={{
               width: "80%",
               height: "100%",
