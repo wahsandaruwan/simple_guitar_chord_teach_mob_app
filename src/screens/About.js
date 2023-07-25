@@ -10,7 +10,7 @@ import * as Icons from "react-native-heroicons/solid";
 
 export default function About({ navigation }) {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: "lightblue" }}>
       <StatusBar backgroundColor="brown" />
       <View
         style={{

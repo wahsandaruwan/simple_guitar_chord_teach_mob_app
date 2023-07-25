@@ -41,7 +41,7 @@ export default function Splash({ navigation }) {
             borderRadius: 10,
           }}
         >
-          <Text style={{ color: "white" }}>Get Started</Text>
+          <Text style={{ color: "white" }}>Proceed</Text>
         </TouchableOpacity>
       </View>
     </SafeAreaView>

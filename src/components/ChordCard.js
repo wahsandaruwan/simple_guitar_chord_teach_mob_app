@@ -1,6 +1,6 @@
 import { StyleSheet, Text, TouchableOpacity, View, Image } from "react-native";
 
-export default function ChordCard({ id, name, type, image }) {
+export default function ChordCard({ name, image, clickFunc }) {
   return (
     <TouchableOpacity
       style={{
@@ -10,6 +10,7 @@ export default function ChordCard({ id, name, type, image }) {
         borderRadius: 10,
         position: "relative",
       }}
+      onPress={() => clickFunc()}
     >
       <View
         style={{

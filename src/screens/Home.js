@@ -107,10 +107,15 @@ export default function Home({ navigation }) {
           {filteredChords.length > 0 ? (
             filteredChords.map((item) => (
               <ChordCard
-                id={item.id}
                 name={item.name}
-                type={item.type}
                 image={item.image}
+                clickFunc={() =>
+                  navigation.navigate("Chord", {
+                    name: item.name,
+                    instruction: item.instruction,
+                    image: item.image,
+                  })
+                }
                 key={item.id}
               />
             ))
