@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import * as Icons from "react-native-heroicons/solid";
 
-export default function Splash() {
+export default function Splash({ navigation }) {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <StatusBar backgroundColor="orange" />
