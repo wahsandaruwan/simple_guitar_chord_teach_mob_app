@@ -53,7 +53,7 @@ export default function Home({ navigation }) {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: "lightblue" }}>
-      <StatusBar backgroundColor="orange" />
+      <StatusBar backgroundColor="brown" />
 
       <View
         style={{
@@ -75,7 +75,7 @@ export default function Home({ navigation }) {
           <TextInput
             placeholder="Filter Chords"
             style={{
-              width: "80%",
+              width: "82%",
               height: "100%",
               paddingVertical: 10,
               paddingHorizontal: 20,
@@ -91,19 +91,10 @@ export default function Home({ navigation }) {
               padding: 5,
               borderRadius: 10,
             }}
-            onPress={() => navigation.navigate("FinanceSetup")}
-          >
-            <Icons.PlusCircleIcon size="40" color="white" />
-          </TouchableOpacity>
-          {/* <TouchableOpacity
-            style={{
-              backgroundColor: "black",
-              padding: 5,
-            }}
             onPress={() => navigation.navigate("About")}
           >
-            <Icons.CheckBadgeIcon size="40" color="white" />
-          </TouchableOpacity> */}
+            <Icons.CubeIcon size="40" color="white" />
+          </TouchableOpacity>
         </View>
         <ScrollView
           showsVerticalScrollIndicator={false}
